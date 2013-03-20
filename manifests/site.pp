@@ -73,6 +73,7 @@ node default {
   include wget
   include vlc
   include flux
+  include dropbox
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
