@@ -55,6 +55,24 @@ node default {
   include hub
   include nginx
   include nvm
+  
+  # custom modules
+  include alfred
+  include iterm2::stable
+  include sublime_text_2
+  include spotify
+  include istatmenus4
+  include slate
+  # include gitx::dev
+  include zsh
+  include firefox
+  include chrome
+  include chrome::canary
+  include postgresql
+  postgresql::db { 'postgres': }
+  include wget
+  include vlc
+  include flux
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
@@ -62,13 +80,10 @@ node default {
   }
 
   # node versions
-  include nodejs::0-4
-  include nodejs::0-6
-  include nodejs::0-8
+  # include nodejs::0-8
 
   # default ruby versions
   include ruby::1_8_7
-  include ruby::1_9_2
   include ruby::1_9_3
   include ruby::2_0_0
 

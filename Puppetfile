@@ -33,3 +33,21 @@ github "sudo",     "1.0.0"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
+
+github "osx",            "1.0.0"
+github "alfred",         "1.0.1", :repo => "sankage/puppet-alfred"
+github "iterm2",         "1.0.1"
+github "sublime_text_2", "1.1.0"
+github "spotify",        "1.0.0"
+github "istatmenus4",    "1.0.0", :repo => "tubit/puppet-istatmenus4"
+github "slate",          "1.0.0"
+github "gitx",           "1.1.0"
+# github "crashplan",    "1.0.1"
+github "zsh",            "1.0.0"
+github "firefox",        "1.0.3"
+github "chrome",         "1.1.0"
+github "sysctl",         "1.0.0"
+github "postgresql",     "1.0.0"
+github "wget",           "1.0.0"
+github "vlc",            "1.0.0"
+github "flux",           "0.0.1"
